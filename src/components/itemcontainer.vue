@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   	<section>
     	<header class="top_tips">
     		<span class="num_tip" v-if="fatherComponent == 'home'">{{level}}</span>
