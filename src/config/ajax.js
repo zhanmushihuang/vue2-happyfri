@@ -1,4 +1,4 @@
-export default (type='GET', url='', data={}, async=true) => {
+﻿export default (type='GET', url='', data={}, async=true) => {
 	return new Promise((resolve, reject) => { //定义一个promise
 		type = type.toUpperCase();
 
@@ -10,7 +10,7 @@ export default (type='GET', url='', data={}, async=true) => {
 		}
 
 		if (type == 'GET') {
-			let dataStr = ''; //数据拼接字符串
+			let dataStr = ''; //数据啊啊拼接字符串
 			Object.keys(data).forEach(key => {
 				dataStr += key + '=' + data[key] + '&';
 			})
